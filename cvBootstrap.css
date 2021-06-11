@@ -1,0 +1,359 @@
+* {
+ 
+  margin: 0;
+  padding: 0;
+}
+body{
+	font-size: 16px;
+	line-height : 1.428;
+	background-image: url("square-26732523.png");
+	background-size: cover;
+	background-attachment: fixed;
+		color: white;
+		font-family: 'Roboto', sans-serif;
+}
+header{
+	position: relative;
+	z-index: 2;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 650px;
+	overflow: hidden;
+	background: linear-gradient(#e66465, #9198e5);
+}
+@keyframes h {
+    from {opacity: 0; display: none;
+    	margin-left: -400px;}
+    to {display:block; opacity: 1; margin-left:;}
+}
+@keyframes p {
+    from {opacity: 0; display: none;
+    	margin-right: -500px; display:block;}
+    to {opacity: 1; margin-right:;}
+}
+header img{
+	opacity: 0.05;
+}
+#nomPrenom{	
+    color:white;
+    font-weight: bold;
+	margin-top: 25%;
+	width: 100%;
+	text-align: center;
+	z-index: 500;
+	position: absolute;
+}
+#nomPrenom h1{	
+font-size: 250%;
+animation-name: h;
+animation-duration: 2s;
+}
+#nomPrenom p{	
+font-size: 200%;
+animation-name: p;
+animation-duration: 2s;
+}
+#nomPrenom button{	
+
+border: 0.5px solid black;
+padding: 1%;
+width: 10%;
+border-radius: 25px;
+}
+#nomPrenom a{	
+color: black;
+text-decoration: none;
+}
+#nomPrenom button:hover{	
+
+background-color: blue;
+}
+#aPropos{
+	text-align: center;
+	padding: 5%;
+	background-color: rgba(25,25,25,0.5);
+}
+.titre{
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+}
+.titreUn{
+	margin-top: 5%; 
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+
+}
+.titreUn i{
+	color: blue;
+
+}
+#competence {
+	padding: 2%;
+display: flex;
+flex-direction: column;
+
+}
+.troisCompetences{
+	width: 100%;
+	margin-bottom: 2%;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.uneCompetence{
+	display: flex;
+	width: 300px;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-bottom: 2%;
+}
+.uneCompetence p{
+	text-align: center;
+	padding-top: 8%;
+	background-color: pink;
+	color: white;
+	height: 50px;
+width: 120px;
+}
+#toutAll{
+	background-color:rgba(25,25,25,0.9);
+	width: 90%;
+	margin: 0 auto;
+	padding: 1%;
+}
+#realisationListe{
+	display: flex;
+	width: 50%;
+	justify-content: space-around;
+	list-style-type: none;
+	margin-left: 2%;
+    margin-top: 2%;
+color: black;
+}
+#realisationListe ul{
+
+	text-align: center;
+width: 30%;
+
+	}
+#realisationListe li{
+	text-align: center;
+	padding: 2%;
+	background-color:white;
+	margin-left: 1%;
+border: 2px solid black;
+width: 100%;
+}
+#realisationListe li:hover{
+
+	background-color:pink;
+}
+.sitePortfolio{
+	display: flex;
+	margin-top: 2%;
+	width: 430px;
+ 
+}
+.sitePortfolio img{
+	position: relative;
+	z-index: 2;
+	width: 100%;
+ border: 1px solid black;
+}
+.sitePortfolio:hover img{
+
+	filter: blur(4px);
+}
+.sitePortfolio:hover p{
+
+    visibility: visible;
+}
+.sitePortfolio p{
+	position: absolute;
+	visibility: hidden;
+	margin-top:7%;
+	margin-left: 9%;
+	font-size: 120%;
+	color: white;
+	z-index: 100;
+}
+.deuxSite{
+	margin-top: 2%;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.toutLePortfolio{
+	margin-top: 5%;
+}
+#wordpress, #fromScratch, #bootstrap, #miniproject{
+display: none;
+}
+#touteMesCompetences{
+	color: black;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.troisCompetences{
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+.uncompetence{
+	width: 150px;
+	height: 150px;
+	text-align: center;
+
+	margin-top: 5%;
+	padding: 1%;
+	background-color:rgba(255,255,255,0.6); 
+}
+.uncompetence p{
+margin-top: 20%;
+}
+#AllTheForm{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2%;
+
+	width: 100%;
+	justify-content: space-around;
+}
+#mailPrenomNom{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+#mailPrenomNom input{
+width: 100%;
+margin-bottom: 5%;
+height: 50px;
+border-radius: 25px;
+padding: 1%;
+
+}
+.contactTitre{
+	text-align: center;
+}
+#mailPrenomNom input:focus {
+border-radius: 25px;
+outline: none;
+}
+textarea{
+	width: 100%;
+	padding: 1%;
+
+	height: 300px;
+	border-radius: 25px;
+}
+#textarea{
+width: 40%;
+}
+textarea:focus{
+	outline: none;
+
+}
+#boutonform{
+	margin:0 auto;
+width: 10%;
+padding: 1%;
+}
+form button{
+	padding: 5%;
+	background-color:blue;
+	border: none; 
+	width: 100%;
+	border-radius: 25px;
+}
+form button:hover{
+	padding: 7%;
+	background-color:pink;
+	border: none; 
+	width: 100%;
+	border-radius: 25px;
+}
+#formettitre {
+
+}
+#titreTarif{
+		margin-top: 5%; 
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+}
+.cercle{
+	border-radius: 50px;
+	border: 1px solid black;
+	background-color: blue;
+	margin: 0 auto;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+}
+.cercle i{
+	margin-top: 30%;
+	font-size: 150%;
+}
+.ligne{
+	width: 0%;
+	margin: 0 auto;
+	height: 50px;
+	border-left: 2px solid white;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+}
+.experience{
+	text-align: center;
+	margin: 0 auto;
+}
+#touteExperience{
+	margin-top: 5%;
+}
+@media (max-width: 810px) {
+
+#AllTheForm{
+	display: flex;
+	flex-direction: column;
+}
+#mailPrenomNom{
+margin: 0 auto;
+	width: 80%;
+}
+#textarea{
+	margin: 0 auto;
+	width: 80%;
+}
+
+#boutonform{
+	width: 50%;
+
+}
+#realisationListe{
+flex-direction: column;
+	width: 90%;
+margin-left: 2%;
+}
+#realisationListe li{
+
+margin-left: 0;
+}
+#nomPrenom button{	
+
+
+width: 30%;
+border-radius: 25px;
+}
+}
+@media (min-width: 770px) and (max-width: 810px) {
+.troisCompetences{
+display: flex;
+flex-direction: column;
+width: 40%;
+margin: 0 auto;
+}	
+}
