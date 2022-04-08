@@ -1,0 +1,569 @@
+* {
+ 
+  margin: 0;
+  padding: 0;
+}
+body{
+	font-size: 16px;
+	line-height : 1.428;
+	
+		
+		font-family: 'Roboto', sans-serif;
+}
+header{
+	position: relative;
+	z-index: 2;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 650px;
+	overflow: hidden;
+	background: linear-gradient(#e66465, #9198e5);
+}
+
+.contactSubtitle{
+text-align: center;
+margin: 5%;
+}
+
+.contactBoxPhone{
+	text-align: center;
+margin: 5%;
+}
+
+.spaceBetween{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+footer{
+	text-align: center;
+	padding: 2%;
+	margin-top: 5%;
+	background-color: #292929;
+	color: white;
+}
+footer i{
+	font-size: 150%;
+}
+#siteWeb{
+background-image: url("statistic-1820320_640.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+#responsive{
+background-image: url("interface-3614766_640.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+#dynamique{
+background-image: url("web-3967926_640.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+#database{
+background-image: url("database-4941301_640.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+#maquette{
+background-image: url("teacher-6105336_640.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+#cms{
+background-image: url("wordpress-1882120_640.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+header img{
+	opacity: 0.05;
+}
+#nomPrenom{	
+    color:white;
+    font-weight: bold;
+	margin-top: 25%;
+	width: 100%;
+	text-align: center;
+	z-index: 500;
+	position: absolute;
+}
+#nomPrenom h1{	
+font-size: 250%;
+
+}
+#nomPrenom p{	
+font-size: 200%;
+
+}
+#nomPrenom button{	
+
+padding: 1%;
+width: 10%;
+border-radius: 25px;
+}
+#nomPrenom a{	
+color: white;
+text-decoration: none;
+}
+#nomPrenom button:hover{	
+
+background-color: #723b40;
+}
+#aPropos{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+}
+
+#aPropos img{
+	margin-top: 10%;
+	width: 40%;
+
+}
+#aProposTxt{
+	margin-top: 10%;
+	padding-left: 5%;
+	width: 50%;
+}
+
+.titre{
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+}
+.titreUn{
+	margin-top: 5%; 
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+
+}
+.titreUn i{
+	color: blue;
+
+}
+#competence {
+	padding: 2%;
+display: flex;
+flex-direction: column;
+
+}
+.troisCompetences{
+	width: 100%;
+	margin-bottom: 2%;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.uneCompetence{
+	display: flex;
+	width: 300px;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-bottom: 2%;
+}
+.uneCompetence p{
+	text-align: center;
+	padding-top: 15%;
+	width: 120px;
+	height: 120px;
+	background-color: #dc6972;
+	color: white;
+}
+#toutAll{
+	background-color:rgba(25,25,25,0.9);
+	width: 90%;
+	margin: 0 auto;
+	padding: 1%;
+}
+#realisationListe{
+	display: flex;
+	width: 50%;
+	justify-content: space-around;
+	list-style-type: none;
+	margin-left: 2%;
+    margin-top: 2%;
+color: black;
+}
+#realisationListe ul{
+
+	text-align: center;
+width: 30%;
+
+	}
+#realisationListe li{
+	text-align: center;
+	padding: 2%;
+	background-color:white;
+	margin-left: 1%;
+border: 2px solid black;
+width: 100%;
+}
+#realisationListe li:hover{
+
+	background-color:pink;
+}
+.sitePortfolio{
+	display: flex;
+	margin-top: 2%;
+	width: 430px;
+ 
+}
+.sitePortfolio img{
+	position: relative;
+	z-index: 2;
+	width: 100%;
+ border: 1px solid black;
+}
+.sitePortfolio:hover img{
+
+	filter: blur(4px);
+}
+.sitePortfolio:hover p{
+
+    visibility: visible;
+}
+.sitePortfolio p{
+	position: absolute;
+	visibility: hidden;
+	margin-top:7%;
+	margin-left: 9%;
+	font-size: 120%;
+	color: white;
+	z-index: 100;
+}
+.deuxSite{
+	margin-top: 2%;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.toutLePortfolio{
+	margin-top: 5%;
+}
+#wordpress, #fromScratch, #bootstrap, #miniproject{
+display: none;
+}
+#touteMesCompetences{
+	color: black;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.troisCompetences{
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+.uncompetence{
+	width: 220px;
+	height: 170px;
+	text-align: center;
+    
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+	margin-top: 5%;
+	padding: 1%;
+	border-radius: 25px;
+}
+.uncompetence p{
+margin-top: 30%;
+background-color: rgba(255, 255, 255, .1);
+}
+#AllTheForm{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2%;
+
+	width: 100%;
+	justify-content: space-around;
+}
+#mailPrenomNom{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+#mailPrenomNom input{
+width: 100%;
+margin-bottom: 5%;
+height: 50px;
+border-radius: 25px;
+padding: 1%;
+
+}
+.contactTitre{
+	text-align: center;
+}
+#mailPrenomNom input:focus {
+border-radius: 25px;
+outline: none;
+}
+textarea{
+	width: 100%;
+	padding: 1%;
+
+	height: 300px;
+	border-radius: 25px;
+}
+#textarea{
+width: 40%;
+}
+textarea:focus{
+	outline: none;
+
+}
+#boutonform{
+	margin:0 auto;
+width: 10%;
+padding: 1%;
+}
+form button{
+	padding: 5%;
+	background-color:blue;
+	border: none; 
+	width: 100%;
+	border-radius: 25px;
+}
+form button:hover{
+	padding: 7%;
+	background-color:pink;
+	border: none; 
+	width: 100%;
+	border-radius: 25px;
+}
+#formettitre {
+
+}
+#titreTarif{
+		margin-top: 5%; 
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+}
+.cercle{
+	border-radius: 50px;
+	border: 1px solid black;
+	background-color: white;
+	margin: 0 auto;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+}
+.cercle i{
+	margin-top: 20%;
+	font-size: 250%;
+	color: darkblue;
+}
+.ligne{
+	width: 0%;
+	margin: 0 auto;
+	height: 50px;
+	border-left: 2px solid white;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+}
+.experience{
+	text-align: center;
+	margin: 0 auto;
+}
+#touteExperience{
+	width: 60%;
+	box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.75);
+	padding: 5%;
+	margin: 0 auto;
+	background-color: darkblue;
+	margin-top: 5%;
+	color: white;
+}
+@media (max-width: 810px) {
+
+.titreUn{
+	margin-top: 20%;
+	margin-bottom: 10%; 
+
+}
+#AllTheForm{
+	display: flex;
+	flex-direction: column;
+}
+#mailPrenomNom{
+margin: 0 auto;
+	width: 80%;
+}
+#textarea{
+	margin: 0 auto;
+	width: 80%;
+}
+
+#boutonform{
+	width: 50%;
+
+}
+#touteExperience{
+ width: 80%;
+}
+#aPropos{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#aPropos img{
+
+	margin: 0 auto;
+	margin-top: 10%;
+	width: 40%;
+
+}
+#aProposTxt{
+	margin-top: 10%;
+	padding-left: 5%;
+	width: 100%;
+}
+#imgCompetence{
+	display: none;
+}
+#realisationListe{
+flex-direction: column;
+	width: 90%;
+margin-left: 2%;
+}
+#realisationListe li{
+
+margin-left: 0;
+}
+#nomPrenom {	
+
+margin-top: 50%;
+
+}
+#nomPrenom button{	
+
+
+width: 30%;
+border-radius: 25px;
+}
+}
+@media (min-width : 321px) and (max-width: 1000px) and (orientation : landscape) {
+#aPropos{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#aPropos img{
+
+	margin: 0 auto;
+	margin-top: 10%;
+	width: 40%;
+
+}
+#aProposTxt{
+	margin-top: 10%;
+	padding-left: 5%;
+	width: 100%;
+}
+.troisCompetences{
+
+width: 100%;
+margin: 0 auto;
+
+}	
+#imgCompetence{
+	display: none;
+}
+.uneCompetence{
+	display: flex;
+	flex-direction: column;
+    justify-content: space-around;
+	width: 250px;
+flex-wrap: wrap;
+margin-top: 5%;
+margin-bottom: 2%;
+}
+.uneCompetence p{
+	text-align: center;
+	padding-top: 15%;
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	background-color: #dc6972;
+	color: white;
+}
+.progress{
+	margin: 0 auto;
+}
+}
+@media (min-width : 1001px) and (max-width: 1200px) and (orientation : landscape) {
+.troisCompetences{
+
+width: 80%;
+margin: 0 auto;
+
+}	
+#imgCompetence{
+	display: none;
+}
+.uneCompetence{
+	display: flex;
+	flex-direction: column;
+    justify-content: space-around;
+	width: 250px;
+flex-wrap: wrap;
+margin-top: 5%;
+margin-bottom: 2%;
+}
+.uneCompetence p{
+	text-align: center;
+	padding-top: 15%;
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	background-color: #dc6972;
+	color: white;
+}
+.progress{
+	margin: 0 auto;
+}	
+}
+@media (min-width: 770px) and (max-width: 810px) {
+.troisCompetences{
+
+width: 100%;
+margin: 0 auto;
+
+}	
+
+.uneCompetence{
+	display: flex;
+	flex-direction: column;
+    justify-content: space-around;
+	width: 250px;
+flex-wrap: wrap;
+margin-top: 5%;
+margin-bottom: 2%;
+}
+.uneCompetence p{
+	text-align: center;
+	padding-top: 15%;
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	background-color: #dc6972;
+	color: white;
+}
+.progress{
+	margin: 0 auto;
+}
+}
